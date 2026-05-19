@@ -2862,7 +2862,7 @@
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #ecaa96;
+				background-color: #526373;
 			}
 
 			input[type="submit"].primary:active,
@@ -3172,14 +3172,14 @@
 /* Banner */
 
 	#banner {
-		background-attachment: scroll,							fixed;
+		background-attachment: scroll, fixed;
 		/* Change the banner background color and image */
 		background-color: #666;
 		/* The preceding layer of linear-gradient is a dark mask, which serves to make the white title more distinct */
 		background-image: linear-gradient(rgba(33, 55, 77, 0.651), rgba(33, 55, 77, 0.709)), url("../../images/BadmintonBg.jpg");
-		background-position: top left,						center center;
-		background-repeat: repeat,							no-repeat;
-		background-size: auto,							cover;
+		background-position: top left, center center;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, cover;
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
